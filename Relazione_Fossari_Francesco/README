@@ -1,0 +1,39 @@
+
+PROGETTOD’ESAME DI LABORATORIO 
+1.ClassificazioneSviluppare  un  algoritmo  elementare  di  classificazione.  L’algoritmo  considera  una scacchiera di 30x30 caselle e dispone a caso 
+(usando la function rand) 50 oggetti (la posizione è una coppia di numeri interi). L’algoritmo posiziona sulla scacchiera, sempre generando  a  caso  la 
+loro  posizione  (usando  la  function rand),  2  nuovi  oggetti  che chiameremo centro1 e centro2. L’algoritmo deve visualizzare la scacchiera, mostrando un  ‘  ’
+per le caselle non occupate, mostrando una ‘X’ per le caselle occupate dagli oggetti,  un  ‘1’  per  la  casella  occupata  da  centro1  e  un  ‘2’  per  la  
+casella  occupata  da centro2.  L’algoritmo determina i seguenti due insiemi A e B: 
+•A è l’insieme degli oggetti che sono più vicini a centro1 piuttosto che a centro2;
+•B è l’insieme degli oggetti che sono più vicini a centro2 piuttosto che a centro1. 
+La  “vicinanza”  è  determinata  calcolando  la  usuale  distanza  geometrica.  Infine l’algoritmo visualizza di nuovo la scacchiera, 
+ma questa volta indicando con la lettera ‘A’  ognuno  degli oggetti  dell’insieme  A,  con  la  lettera  ‘B’  ognuno  degli  oggetti dell’insieme B e con la lettera
+‘U’ gli eventuali oggetti che hanno uguale distanza sia rispetto  a  centro1  che  a  centro2.  La  posizione  di  centro1  è  ancora  indicata  con  ‘1’  e quella 
+di centro2 con ‘2’.2.Dizionario dei contrariSi vuole simulare la gestione di un dizionariodei contrari. Il dizionario è indicizzato tramite le lettere dell’alfabeto
+ed ogni parola contiene i suoi contrari (massimo 5).Permettere all’utente di: •Inserisce una frase dove ogni parola è separata da uno spazioIl programma riconosce 
+ogni singola parola e chiede all’utente se vuole cercare nel dizionario il suo contrario. Se la risposta è affermative il programma sostituisce la  parola.  Provvedere 
+all’implementazione dell’algoritmo che data una frase ritorna una nuova frase con i contrari al posto delle parole decise dall’utente. Effettuare almeno 3test.
+
+ATTENZIONE –LEGGERE ATTENTAMENTE
+La  prova  d’esame  di  laboratorio  richiede  ilprogetto  degli  algoritmi  e  la  loro implementazione come programmi C.Tutti i programmi devono
+contenere •un insieme di commenti iniziali che spiega brevemente le finalità del programma;•un insieme di commenti all’inizio di ogni function che spiega le
+finalità della functione il significato dei parametri di input output (specifichedella function);•commenti esplicativi dei principali blocchi di istruzioni;e devono 
+essere corredati da•un insieme di almeno 3 esecuzioniper testare il programma con diversi dati di input.Lo studente deve consegnare al docente una UNICArelazione 
+organizzata come documento multimediale. In particolare deve essere inviata per e-mail al docente una UNICA cartella (zippata) denominata  Relazione_Cognome_Nome.zip.
+La cartelladeve contenere: 
+•un file index.htmlche è il documento multimediale;
+•una cartella imagesche contiene le immagini del documento multimediale;
+•una cartella C contenente i file sorgente del progetto (.c, .h); 
+•il testo della prova inviata dal docente in formato.pdf ;
+•altre cartelle eventualmente generate per il documento.La relazionedeve contenere necessariamente almeno•il testo della prova inviata dal docente;
+•il testo dei programmi C (sorgente);•l’output e la descrizione dei test di esecuzione.
+
+I test devono essere almeno tre per ogni programma, devono essere salvati come “print screen” e come figure nel documento multimediale. 
+Devono essere corredati da una descrizione per l’interpretazione dei risultati del test. La relazione deve riportare chiaramente il nome e cognome dell’allievo e 
+la sua matricola.La   relazione   deve   essere   inviata   al   docente   per   e-mail entro  la  data  di  scadenza  della 
+prenotazione on-line dell’esamee deve essere inviata esclusivamente dall’indirizzo e-mail personale dello studente 
+.
+
+IL  NOME  DELLA  CARTELLA  CHE  CONTIENE  LA  RELAZIONE  DEVE ESSERE Relazione_cognomeallievo_nomeallievo.zipNON SARANNO ESAMINATI PROGETTI 
+DIFFORMI DA QUANTO PRECISATO.
